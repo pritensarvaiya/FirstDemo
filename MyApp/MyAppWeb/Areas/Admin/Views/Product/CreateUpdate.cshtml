@@ -1,0 +1,77 @@
+﻿@model ProductViewModel
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row my-4">
+    <div class="col-md-10">
+        <h4>@((Model.Product == null || Model.Product.Id == 0) ? "Create" : "Edit") Product</h4>
+    </div>
+    <div class="col-md-2">
+        <a asp-controller="Product" asp-action="Index" class="btn btn-outline-primary">List Product</a>
+    </div>
+</div>
+
+<div class="row my-5">
+    <div class="col-md-6">
+        <form asp-controller="Product" asp-action="CreateUpdate" method="POST" enctype="multipart/form-data">
+            <div class="mb-3">
+                <label asp-for="Product.Name" class="form-label">Product Name</label>
+                <input asp-for="Product.Name" type="text" class="form-control">
+                <span asp-validation-for="Product.Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Product.Description" class="form-label">Description</label>
+                <textarea asp-for="Product.Description" class="form-control"></textarea>
+                <span asp-validation-for="Product.Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Product.Price" class="form-label">Price</label>
+                <input asp-for="Product.Price" type="text" class="form-control">
+            </div>
+            <div class="mb-3">
+                <label asp-for="Product.ImageUrl" class="form-label">Image</label>
+                <input asp-for="Product.ImageUrl" type="file" name="file" id="img_product" class="form-control">
+                <span asp-validation-for="Product.ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Product.CategoryId" class="form-label">Category</label>
+                <select asp-for="Product.CategoryId" asp-items="@Model.Categories" class="form-select">
+                    <option selected disabled>-- Select Category --</option>
+                </select>
+                <span asp-validation-for="Product.CategoryId" class="text-danger"></span>
+            </div>
+            <input type="hidden" asp-for="Product.Id" />
+            <input type="hidden" asp-for="Product.ImageUrl" />
+            @if (Model.Product == null || Model.Product.Id == 0)
+            {
+                <input type="submit" value="Save" class="btn btn-primary" onclick="return validate()" />
+            }
+            else
+            {
+                <input type="submit" value="Edit" class="btn btn-primary" />
+            }
+
+        </form>
+    </div>
+</div>
+
+@section scripts{
+    @{
+        <partial name="_validationscriptspartial" />
+    }
+    <script>
+        function validate(){
+            debugger;
+            if (document.getElementById('img_product').value==''){
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Oops...',
+                    text: 'Please Select Image!'                   
+                })
+                return false;
+            }
+            return true;
+        }
+    </script>
+}

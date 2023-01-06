@@ -1,0 +1,12 @@
+D:\MyApp\MyApp.Models\bin\Debug\net6.0\MyApp.Models.deps.json
+D:\MyApp\MyApp.Models\bin\Debug\net6.0\MyApp.Models.dll
+D:\MyApp\MyApp.Models\bin\Debug\net6.0\MyApp.Models.pdb
+D:\MyApp\MyApp.Models\obj\Debug\net6.0\MyApp.Models.csproj.AssemblyReference.cache
+D:\MyApp\MyApp.Models\obj\Debug\net6.0\MyApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyApp\MyApp.Models\obj\Debug\net6.0\MyApp.Models.AssemblyInfoInputs.cache
+D:\MyApp\MyApp.Models\obj\Debug\net6.0\MyApp.Models.AssemblyInfo.cs
+D:\MyApp\MyApp.Models\obj\Debug\net6.0\MyApp.Models.csproj.CoreCompileInputs.cache
+D:\MyApp\MyApp.Models\obj\Debug\net6.0\MyApp.Models.dll
+D:\MyApp\MyApp.Models\obj\Debug\net6.0\refint\MyApp.Models.dll
+D:\MyApp\MyApp.Models\obj\Debug\net6.0\MyApp.Models.pdb
+D:\MyApp\MyApp.Models\obj\Debug\net6.0\ref\MyApp.Models.dll

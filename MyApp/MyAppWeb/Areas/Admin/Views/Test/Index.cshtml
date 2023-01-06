@@ -1,0 +1,24 @@
+﻿@model Test
+@{
+    ViewData["Title"] = "Index";
+}
+<div asp-validation-summary="All" class="text-danger"> <span>Please correct the following errors</span></div>
+<form asp-controller="Test" asp-action="Create">
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Name</label>
+        <input asp-for="Name" type="text" class="form-control">
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+    <div class="mb-3">
+        <label asp-for="Email" class="form-label">Email address</label>
+        <input asp-for="Email" type="email" class="form-control">
+        @*<span asp-validation-for="Email" class="text-danger"></span>*@
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+@section scripts{
+    @{
+        //<partial name="_validationscriptspartial" />
+    }
+}

@@ -1,0 +1,17 @@
+D:\MyApp\MyApp.Data\bin\Debug\net6.0\MyApp.DataAccessLayer.deps.json
+D:\MyApp\MyApp.Data\bin\Debug\net6.0\MyApp.DataAccessLayer.dll
+D:\MyApp\MyApp.Data\bin\Debug\net6.0\MyApp.DataAccessLayer.pdb
+D:\MyApp\MyApp.Data\bin\Debug\net6.0\MyApp.Models.dll
+D:\MyApp\MyApp.Data\bin\Debug\net6.0\MyApp.Models.pdb
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\MyApp.DataAccessLayer.csproj.AssemblyReference.cache
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\MyApp.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\MyApp.DataAccessLayer.AssemblyInfoInputs.cache
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\MyApp.DataAccessLayer.AssemblyInfo.cs
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\MyApp.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\MyApp.DataAccessLayer.csproj.CopyComplete
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\MyApp.DataAccessLayer.dll
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\refint\MyApp.DataAccessLayer.dll
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\MyApp.DataAccessLayer.pdb
+D:\MyApp\MyApp.Data\obj\Debug\net6.0\ref\MyApp.DataAccessLayer.dll
+D:\MyApp\MyApp.Data\bin\Debug\net6.0\MyApp.CommonHelper.dll
+D:\MyApp\MyApp.Data\bin\Debug\net6.0\MyApp.CommonHelper.pdb
